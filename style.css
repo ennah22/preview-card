@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: sans-serif "lexend deca";
+}
+h1{
+    color: hsl(0, 0%, 95%);
+   margin-top: 20px;
+   font-family: 'Big Shoulders Display', cursive;
+   letter-spacing: 1px;
+   font-size:50px;
+   font-weight: 400px;
+}
+button{
+    width: 60%;
+    height: 40px;
+    border: 3px solid white;
+    background-color: transparent ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(0, 0%, 95%);
+    cursor: pointer;
+    margin-top: 20%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button:hover{
+    background-color: hsl(0, 0%, 95%);
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bolder;
+}
+section div {
+    width: 15%;
+    height: 430px;
+    padding: 40px;
+}
+section{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+section div:first-child{
+    background-color: hsl(31, 77%, 52%);
+    border-left: 5px transparent;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+section div:nth-child(2){
+    background-color: hsl(184, 100%, 22%)
+}
+section div:last-child{
+    background-color: hsl(179, 100%, 13%);
+    border-right: 3px transparent;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;   
+}
+p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+}
